@@ -17,7 +17,7 @@ public class Test {
 		
 		session.beginTransaction();
 		
-		//here i will do CRUD operations
+		//here i will do CRUD op erations
 		
 		student = (Student) session.get(Student.class, 1);
 		
